@@ -9,7 +9,15 @@
 Pod::Spec.new do |s|
   s.name             = 'SKImageExtensionZuoYu'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SKImageExtension.'
+  s.summary          =
+                     <<-DESC
+                     'A short description of SKImageExtension.'
+                     'A longer description of AliPay in Markdown format.'
+                     '* Think: Why did you write this? What is the focus? What does it do?'
+                     '* CocoaPods will be using this to generate tags, and improve search results.'
+                     '* Try to keep it short, snappy and to the point.'
+                     '* Finally, dont worry about the indent, CocoaPods strips it!'
+                     DESC
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
